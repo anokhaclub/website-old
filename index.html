@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
@@ -19,9 +20,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">Our Promise</a></li>
-                    <li class="nav-item"><a class="nav-link" href="store.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promise">Our Promise</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -37,7 +38,7 @@
             </div>
         </div>
     </section>
-    <section class="page-section cta" style="margin-bottom: 40px;">
+    <section id="promise" class="page-section cta" style="margin-bottom: 40px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
@@ -49,11 +50,37 @@
             </div>
         </div>
     </section>
-    <div class="contact-clean" style="background: transparent;">
+    <div class="team-boxed" style="background: transparent;">
+        <div class="container">
+            <div class="mx-auto intro-text left-0 text-centerfaded p-5 rounded bg-faded text-center" id="team" style="margin: 0;margin-bottom: -35px;max-width: 800px;">
+                <h2 class="section-heading mb-4"><span class="section-heading-upper">there is no i in</span><span class="section-heading-lower">team</span></h2>
+                <p class="mb-3">A passionate team of developers and thinkers to ensure your company is No. 1</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6" style="margin-bottom: 30px;">
+                    <div class="box rounded" style="background: var(--primary);padding: 35px;"><img class="rounded-circle" src="assets/img/srupic.jpeg" style="height: 150px;">
+                        <h3 class="name" style="margin-top: 12px;">Srujan Deshpande</h3>
+                        <p class="title" style="color: #313437;">Developer</p>
+                        <p class="description" style="color: #313437;">A driven developer and writer, Srujan is a Computer Science Engineering Junior at PES University. He has been working in the digital industry for the last 5+ years. He was experience in creating and successfully running multiple websites, social media profiles and blogs.</p>
+                        <div class="social" style="color: #313437;"><a href="https://www.linkedin.com/in/srujandeshpande/" target="_blank"><i class="fa fa-linkedin"></i></a><a href="https://instagram.com/srujandeshpande" target="_blank"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-external-link"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box rounded" style="background: var(--primary);padding: 35px;"><img class="rounded-circle" src="assets/img/gaurang.jpeg" style="height: 150px;">
+                        <h3 class="name" style="margin-top: 12px;">Gaurang Asopa</h3>
+                        <p class="title" style="color: #313437;">Finance Professional</p>
+                        <p class="description" style="color: #313437;">Gaurang is a research-oriented individual, pursuing a Finance and Investment major at CHRIST University looking to leave a mark in this world.&nbsp; He is Awaiting the charter for the US CMA Certification and a CFA L1 Candidate an is very passionate about entrepreneurship and sports.</p>
+                        <div class="social" style="border-color: #313437;color: #313437;"><a href="https://www.linkedin.com/in/gaurang-asopa/" target="_blank"><i class="fa fa-linkedin"></i></a><a href="https://instagram.com/thegaurangasopa" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact-clean" style="background: transparent;">
         <form data-bss-recipient="efd7516014af18ccf53707b6d5bbb946" data-bss-subject="Bountree">
             <h2 class="text-center" style="font-size: 48px;font-weight: 100;color: rgb(33,37,41);">Contact us</h2>
             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
             <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
             <div class="form-group"><button class="btn btn-primary" type="submit" style="background: var(--primary);">send </button></div>
         </form>
